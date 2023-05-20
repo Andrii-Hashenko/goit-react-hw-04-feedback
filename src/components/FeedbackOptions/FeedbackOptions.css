@@ -1,0 +1,26 @@
+.Feedback__button {
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: yellowgreen;
+  color: black;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 500ms linear;
+}
+.Feedback__button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px #0f818973;
+}
+
+.Feedback__button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px #8d138373;
+}

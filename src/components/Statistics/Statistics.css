@@ -1,0 +1,13 @@
+.Statistics__feedback {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 11, 11);
+}
+.Statistics__total {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(105, 106, 5);
+}
+.Statistics__value {
+  color: rgb(19, 3, 73);
+}
